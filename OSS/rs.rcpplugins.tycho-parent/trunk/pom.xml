@@ -67,6 +67,11 @@
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/technology/nebula/snapshot</url>
 		</repository>
+		<repository>
+			<id>E4-Tools</id>
+			<layout>p2</layout>
+			<url>http://download.vogella.com/kepler/e4tools</url>
+		</repository>
 	</repositories>
 
 	<build>
