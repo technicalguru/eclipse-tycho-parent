@@ -139,7 +139,10 @@
 					</environments>
 				</configuration>
 			</plugin>
-			
+			<plugin>
+				<artifactId>maven-install-plugin</artifactId>
+				<version>2.5.1</version>
+			</plugin>
 		</plugins>
 	</build>
 </project>
