@@ -19,7 +19,7 @@
 		<timestamp>${maven.build.timestamp}</timestamp>
 		<maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss Z</maven.build.timestamp.format>
 		<project.home>${project.url}</project.home>
-		<tycho-version>0.19.0</tycho-version>
+		<tycho-version>0.20.0</tycho-version>
 	</properties>
 
 	<scm>
@@ -52,9 +52,9 @@
 	<repositories>
 		<!-- add Kepler repository to resolve dependencies -->
 		<repository>
-			<id>Kepler</id>
+			<id>Luna</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/releases/kepler/</url>
+			<url>http://download.eclipse.org/releases/luna/</url>
 		</repository>
 		<repository>
 			<id>Nebula-Incubation</id>
@@ -69,7 +69,7 @@
 		<repository>
 			<id>E4-Tools</id>
 			<layout>p2</layout>
-			<url>http://download.vogella.com/kepler/e4tools</url>
+			<url>http://download.vogella.com/luna/e4tools</url>
 		</repository>
 	</repositories>
 
