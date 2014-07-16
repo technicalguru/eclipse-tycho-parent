@@ -8,7 +8,7 @@
 
 	<groupId>eu.ralph-schuster</groupId>
 	<artifactId>rs.rcpplugins.tycho-parent</artifactId>
-	<version>1.1.0-SNAPSHOT</version>
+	<version>1.1.0</version>
 	<packaging>pom</packaging>
 	
 	<name>Tycho POM Parent</name>
@@ -23,9 +23,9 @@
 	</properties>
 
 	<scm>
-		<connection>scm:svn:https://svn.ralph-schuster.eu/svn/OSS/rs.rcpplugins.tycho-parent/trunk</connection>
-		<developerConnection>scm:svn:https://svn.ralph-schuster.eu/svn/OSS/rs.rcpplugins.tycho-parent/trunk</developerConnection>
-		<url>https://svn.ralph-schuster.eu/svn/OSS/rs.rcpplugins.tycho-parent/trunk</url>
+		<connection>scm:svn:https://svn.ralph-schuster.eu/svn/OSS/rs.rcpplugins.tycho-parent/tags/rs.rcpplugins.tycho-parent-1.1.0</connection>
+		<developerConnection>scm:svn:https://svn.ralph-schuster.eu/svn/OSS/rs.rcpplugins.tycho-parent/tags/rs.rcpplugins.tycho-parent-1.1.0</developerConnection>
+		<url>https://svn.ralph-schuster.eu/svn/OSS/rs.rcpplugins.tycho-parent/tags/rs.rcpplugins.tycho-parent-1.1.0</url>
 	</scm>
 
 	<issueManagement>
