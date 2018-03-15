@@ -64,7 +64,7 @@
 		<repository>
 			<id>Nebula</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/technology/nebula/snapshot</url>
+			<url>http://download.eclipse.org/nebula/incubation/snapshot</url>
 		</repository>
 		<repository>
 			<id>E4-Tools</id>
@@ -108,17 +108,7 @@
 						<environment>
 							<os>linux</os>
 							<ws>gtk</ws>
-							<arch>x86</arch>
-						</environment>
-						<environment>
-							<os>linux</os>
-							<ws>gtk</ws>
 							<arch>x86_64</arch>
-						</environment>
-						<environment>
-							<os>win32</os>
-							<ws>win32</ws>
-							<arch>x86</arch>
 						</environment>
 						<environment>
 							<os>win32</os>
@@ -129,11 +119,6 @@
 							<os>macosx</os>
 							<ws>cocoa</ws>
 							<arch>x86_64</arch>
-						</environment>
-						<environment>
-							<os>macosx</os>
-							<ws>cocoa</ws>
-							<arch>x86</arch>
 						</environment>
 					</environments>
 				</configuration>
