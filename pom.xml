@@ -59,7 +59,7 @@
 		<repository>
 			<id>Nebula-Incubation</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/technology/nebula/incubation/snapshot</url>
+			<url>http://download.eclipse.org/nebula/incubation/snapshot</url>
 		</repository>
 		<repository>
 			<id>Nebula</id>
