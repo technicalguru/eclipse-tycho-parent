@@ -8,7 +8,7 @@
 
 	<groupId>eu.ralph-schuster</groupId>
 	<artifactId>rs.rcpplugins.tycho-parent</artifactId>
-	<version>1.1.4-SNAPSHOT</version>
+	<version>1.2.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	
 	<name>Tycho POM Parent</name>
@@ -30,7 +30,7 @@
 
 	<issueManagement>
 		<system>Jira</system>
-		<url>http://jira.ralph-schuster.eu/</url>
+		<url>https://jira.ralph-schuster.eu/</url>
 	</issueManagement>
 
 	<licenses>
@@ -54,7 +54,7 @@
 		<repository>
 			<id>Luna</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/releases/luna/</url>
+			<url>http://download.eclipse.org/releases/oxygen/</url>
 		</repository>
 		<repository>
 			<id>Nebula-Incubation</id>
@@ -65,11 +65,6 @@
 			<id>Nebula</id>
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/nebula/incubation/snapshot</url>
-		</repository>
-		<repository>
-			<id>E4-Tools</id>
-			<layout>p2</layout>
-			<url>http://download.vogella.com/luna/e4tools</url>
 		</repository>
 	</repositories>
 
