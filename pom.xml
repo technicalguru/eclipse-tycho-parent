@@ -19,13 +19,13 @@
 		<timestamp>${maven.build.timestamp}</timestamp>
 		<maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss Z</maven.build.timestamp.format>
 		<project.home>${project.url}</project.home>
-		<tycho-version>1.2.0</tycho-version>
+		<tycho-version>1.6.0</tycho-version>
 	</properties>
 
 	<scm>
-		<connection>scm:svn:https://svn.ralph-schuster.eu/svn/OSS/rs.rcpplugins.tycho-parent/trunk</connection>
-		<developerConnection>scm:svn:https://svn.ralph-schuster.eu/svn/OSS/rs.rcpplugins.tycho-parent/trunk</developerConnection>
-		<url>https://svn.ralph-schuster.eu/svn/OSS/rs.rcpplugins.tycho-parent/trunk</url>
+		<connection>scm:git:https://github.com/technicalguru/eclipse-tycho-parent.git</connection>
+		<developerConnection>scm:git:https://github.com/technicalguru/eclipse-tycho-parent.git</developerConnection>
+		<url>https://github.com/technicalguru/eclipse-tycho-parent</url>
 	</scm>
 
 	<issueManagement>
