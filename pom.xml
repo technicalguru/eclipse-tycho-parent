@@ -3,7 +3,7 @@
 
 	<groupId>eu.ralph-schuster</groupId>
 	<artifactId>rs.rcpplugins.tycho-parent</artifactId>
-	<version>1.4.0</version>
+	<version>1.4.1</version>
 	<packaging>pom</packaging>
 	
 	<name>Tycho POM Parent</name>
@@ -22,7 +22,7 @@
 		<connection>scm:git:https://github.com/technicalguru/eclipse-tycho-parent.git</connection>
 		<developerConnection>scm:git:https://github.com/technicalguru/eclipse-tycho-parent.git</developerConnection>
 		<url>https://github.com/technicalguru/eclipse-tycho-parent</url>
-	  <tag>rs.rcpplugins.tycho-parent-1.4.0</tag>
+	  <tag>rs.rcpplugins.tycho-parent-1.4.1</tag>
   </scm>
 
 	<issueManagement>
@@ -51,7 +51,7 @@
 		<repository>
 			<id>Oxygen</id>
 			<layout>p2</layout>
-			<url>https://download.eclipse.org/releases/oxygen/</url>
+			<url>https://download.eclipse.org/releases/2020-03/</url>
 		</repository>
 		<repository>
 			<id>Orbit</id>
