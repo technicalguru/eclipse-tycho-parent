@@ -12,7 +12,7 @@ _Tycho Maven OSS Parent_ is licensed under [GNU LGPL 3.0](LICENSE.md).
 	<parent>
 		<groupId>eu.ralph-schuster</groupId>
 		<artifactId>rs.rcpplugins.tycho-parent</artifactId>
-		<version>1.4.0</version>
+		<version>1.4.1</version>
 	</parent>
 ```
 
