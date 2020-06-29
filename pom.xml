@@ -27,7 +27,7 @@
 
 	<issueManagement>
 		<system>Jira</system>
-		<url>https://jira.ralph-schuster.eu/</url>
+		<url>https://jira.ralph-schuster.eu:8443/</url>
 	</issueManagement>
 
 	<licenses>
@@ -129,6 +129,13 @@
 						<goals>
 							<goal>sign</goal>
 						</goals>
+						<configuration>
+							<gpgArguments>
+								<arg>--pinentry-mode</arg>
+								<arg>loopback</arg>
+							</gpgArguments>
+							<passphraseServerId>${gpg.keyname}</passphraseServerId>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>
