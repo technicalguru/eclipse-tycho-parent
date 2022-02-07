@@ -3,7 +3,7 @@
 
 	<groupId>eu.ralph-schuster</groupId>
 	<artifactId>rs.rcpplugins.tycho-parent</artifactId>
-	<version>1.4.1</version>
+	<version>1.5.0</version>
 	<packaging>pom</packaging>
 	
 	<name>Tycho POM Parent</name>
@@ -15,19 +15,19 @@
 		<timestamp>${maven.build.timestamp}</timestamp>
 		<maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss Z</maven.build.timestamp.format>
 		<project.home>${project.url}</project.home>
-		<tycho-version>1.6.0</tycho-version>
+		<tycho-version>2.6.0</tycho-version>
 	</properties>
 
 	<scm>
 		<connection>scm:git:https://github.com/technicalguru/eclipse-tycho-parent.git</connection>
 		<developerConnection>scm:git:https://github.com/technicalguru/eclipse-tycho-parent.git</developerConnection>
 		<url>https://github.com/technicalguru/eclipse-tycho-parent</url>
-	  <tag>rs.rcpplugins.tycho-parent-1.4.1</tag>
+	  <tag>rs.rcpplugins.tycho-parent-1.5.0</tag>
   </scm>
 
 	<issueManagement>
-		<system>Jira</system>
-		<url>https://jira.ralph-schuster.eu/</url>
+		<system>GitHub</system>
+		<url>https://github.com/technicalguru/eclipse-tycho-parent/issues</url>
 	</issueManagement>
 
 	<licenses>
@@ -51,7 +51,7 @@
 		<repository>
 			<id>Oxygen</id>
 			<layout>p2</layout>
-			<url>https://download.eclipse.org/releases/2020-03/</url>
+			<url>https://download.eclipse.org/releases/2020-06/</url>
 		</repository>
 		<repository>
 			<id>Orbit</id>
@@ -98,7 +98,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.13</version>
+			<version>4.13.2</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -121,7 +121,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
-				<version>1.6</version>
+				<version>3.0.1</version>
 				<executions>
 					<execution>
 						<id>sign-artifacts</id>
@@ -129,6 +129,13 @@
 						<goals>
 							<goal>sign</goal>
 						</goals>
+						<configuration>
+							<gpgArguments>
+								<arg>--pinentry-mode</arg>
+								<arg>loopback</arg>
+							</gpgArguments>
+							<passphraseServerId>${gpg.keyname}</passphraseServerId>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>
